@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -45,6 +46,18 @@ public class BaseClass {
 	
 	public void enterText(WebElement element,String text) {
 		element.sendKeys(text);
+	}
+
+//	public void selectText(WebElement element,String text) {
+//		
+//		Select s=new Select(element);
+//		s.selectByVisibleText(text);
+//	}
+
+	public void selectText(WebElement element, String text) {
+		// TODO Auto-generated method stub
+		Select s=new Select(element);
+		s.selectByVisibleText(text);
 	}
 	
 	

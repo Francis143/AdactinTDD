@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-18T11:06:49 IST" name="Suite" finished-at="2024-12-18T11:07:13 IST" duration-ms="24477">
+  <suite started-at="2024-12-18T11:48:11 IST" name="Suite" finished-at="2024-12-18T11:48:44 IST" duration-ms="32363">
     <groups>
     </groups>
-    <test started-at="2024-12-18T11:06:49 IST" name="Test1" finished-at="2024-12-18T11:06:56 IST" duration-ms="7377">
+    <test started-at="2024-12-18T11:48:11 IST" name="Test" finished-at="2024-12-18T11:48:44 IST" duration-ms="32363">
       <class name="com.adactingLoginTest.LoginTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@4e3958e7]" started-at="2024-12-18T11:06:49 IST" name="beforeMethod" finished-at="2024-12-18T11:06:52 IST" duration-ms="3317" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:11 IST" name="beforeMethod" finished-at="2024-12-18T11:48:15 IST" duration-ms="3310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,61 +18,166 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="tc_001()[pri:0, instance:com.adactingLoginTest.LoginTest@4e3958e7]" started-at="2024-12-18T11:06:52 IST" name="tc_001" finished-at="2024-12-18T11:06:53 IST" duration-ms="717" status="PASS">
+        <test-method signature="tc_001()[pri:1, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:15 IST" name="tc_001" finished-at="2024-12-18T11:48:16 IST" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@4e3958e7]" started-at="2024-12-18T11:06:53 IST" name="afterMethod" finished-at="2024-12-18T11:06:56 IST" duration-ms="3303" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:16 IST" name="afterMethod" finished-at="2024-12-18T11:48:19 IST" duration-ms="3218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.adactingLoginTest.LoginTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-12-18T11:06:56 IST" name="Test2" finished-at="2024-12-18T11:07:05 IST" duration-ms="9104">
-      <class name="com.adactingLoginTest.LoginTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@306cf3ea]" started-at="2024-12-18T11:06:56 IST" name="beforeMethod" finished-at="2024-12-18T11:07:01 IST" duration-ms="4751" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:19 IST" name="beforeMethod" finished-at="2024-12-18T11:48:22 IST" duration-ms="2802" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="tc_001()[pri:0, instance:com.adactingLoginTest.LoginTest@306cf3ea]" started-at="2024-12-18T11:07:01 IST" name="tc_001" finished-at="2024-12-18T11:07:01 IST" duration-ms="617" status="PASS">
+        <test-method signature="tc_002()[pri:2, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:22 IST" name="tc_002" finished-at="2024-12-18T11:48:22 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@306cf3ea]" started-at="2024-12-18T11:07:01 IST" name="afterMethod" finished-at="2024-12-18T11:07:05 IST" duration-ms="3731" status="PASS">
+        </test-method> <!-- tc_002 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:22 IST" name="afterMethod" finished-at="2024-12-18T11:48:25 IST" duration-ms="3231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.adactingLoginTest.LoginTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2024-12-18T11:07:05 IST" name="Test3" finished-at="2024-12-18T11:07:13 IST" duration-ms="7970">
-      <class name="com.adactingLoginTest.LoginTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@5136d012]" started-at="2024-12-18T11:07:05 IST" name="beforeMethod" finished-at="2024-12-18T11:07:08 IST" duration-ms="2577" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:25 IST" name="beforeMethod" finished-at="2024-12-18T11:48:28 IST" duration-ms="2644" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="tc_001()[pri:0, instance:com.adactingLoginTest.LoginTest@5136d012]" started-at="2024-12-18T11:07:08 IST" name="tc_001" finished-at="2024-12-18T11:07:09 IST" duration-ms="1013" status="PASS">
+        <test-method signature="tc_003()[pri:3, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:28 IST" name="tc_003" finished-at="2024-12-18T11:48:28 IST" duration-ms="447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@5136d012]" started-at="2024-12-18T11:07:09 IST" name="afterMethod" finished-at="2024-12-18T11:07:13 IST" duration-ms="4376" status="PASS">
+        </test-method> <!-- tc_003 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:28 IST" name="afterMethod" finished-at="2024-12-18T11:48:32 IST" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:32 IST" name="beforeMethod" finished-at="2024-12-18T11:48:34 IST" duration-ms="2531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc_004()[pri:4, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:34 IST" name="tc_004" finished-at="2024-12-18T11:48:35 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:35 IST" name="afterMethod" finished-at="2024-12-18T11:48:38 IST" duration-ms="3218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:38 IST" name="beforeMethod" finished-at="2024-12-18T11:48:41 IST" duration-ms="2551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc_005()[pri:5, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:41 IST" name="tc_005" finished-at="2024-12-18T11:48:41 IST" duration-ms="21" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#location"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d357193c2a48d31e21ac8dff90b76eb4, findElement {value=location, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\franc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60255/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d357193c2a48d31e21ac8dff90b76eb4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#location"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d357193c2a48d31e21ac8dff90b76eb4, findElement {value=location, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\franc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60255}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60255/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d357193c2a48d31e21ac8dff90b76eb4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getTagName(Unknown Source)
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:41)
+at com.base.BaseClass.selectText(BaseClass.java:59)
+at com.adactingLoginTest.LoginTest.tc_005(LoginTest.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@424e1977]" started-at="2024-12-18T11:48:41 IST" name="afterMethod" finished-at="2024-12-18T11:48:44 IST" duration-ms="3197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.adactingLoginTest.LoginTest -->
-    </test> <!-- Test3 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
