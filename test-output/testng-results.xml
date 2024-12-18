@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T11:06:49 IST" name="Suite" finished-at="2024-12-18T11:07:13 IST" duration-ms="24477">
+    <groups>
+    </groups>
+    <test started-at="2024-12-18T11:06:49 IST" name="Test1" finished-at="2024-12-18T11:06:56 IST" duration-ms="7377">
+      <class name="com.adactingLoginTest.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@4e3958e7]" started-at="2024-12-18T11:06:49 IST" name="beforeMethod" finished-at="2024-12-18T11:06:52 IST" duration-ms="3317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc_001()[pri:0, instance:com.adactingLoginTest.LoginTest@4e3958e7]" started-at="2024-12-18T11:06:52 IST" name="tc_001" finished-at="2024-12-18T11:06:53 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@4e3958e7]" started-at="2024-12-18T11:06:53 IST" name="afterMethod" finished-at="2024-12-18T11:06:56 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.adactingLoginTest.LoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-12-18T11:06:56 IST" name="Test2" finished-at="2024-12-18T11:07:05 IST" duration-ms="9104">
+      <class name="com.adactingLoginTest.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@306cf3ea]" started-at="2024-12-18T11:06:56 IST" name="beforeMethod" finished-at="2024-12-18T11:07:01 IST" duration-ms="4751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc_001()[pri:0, instance:com.adactingLoginTest.LoginTest@306cf3ea]" started-at="2024-12-18T11:07:01 IST" name="tc_001" finished-at="2024-12-18T11:07:01 IST" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@306cf3ea]" started-at="2024-12-18T11:07:01 IST" name="afterMethod" finished-at="2024-12-18T11:07:05 IST" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.adactingLoginTest.LoginTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-12-18T11:07:05 IST" name="Test3" finished-at="2024-12-18T11:07:13 IST" duration-ms="7970">
+      <class name="com.adactingLoginTest.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:com.adactingLoginTest.LoginTest@5136d012]" started-at="2024-12-18T11:07:05 IST" name="beforeMethod" finished-at="2024-12-18T11:07:08 IST" duration-ms="2577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc_001()[pri:0, instance:com.adactingLoginTest.LoginTest@5136d012]" started-at="2024-12-18T11:07:08 IST" name="tc_001" finished-at="2024-12-18T11:07:09 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.adactingLoginTest.LoginTest@5136d012]" started-at="2024-12-18T11:07:09 IST" name="afterMethod" finished-at="2024-12-18T11:07:13 IST" duration-ms="4376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.adactingLoginTest.LoginTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
