@@ -7,10 +7,12 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import com.pages.LoginPage;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-
+LoginPage loginPage;
 	public static WebDriver driver;
 
 	public void launchBrowser(String browser) {
@@ -21,16 +23,14 @@ public class BaseClass {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.get("https://adactinhotelapp.com/");
-		}
-		else if (browser.equals("firefox")) {
-			
+		} else if (browser.equals("firefox")) {
+
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.get("https://adactinhotelapp.com/");
-		}
-		else if (browser.equals("edge")) {
-			
+		} else if (browser.equals("edge")) {
+
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 			driver.manage().window().maximize();
@@ -43,23 +43,23 @@ public class BaseClass {
 		Thread.sleep(3000);
 		driver.quit();
 	}
-	
-	public void enterText(WebElement element,String text) {
+
+	public void enterText(WebElement element, String text) {
 		element.sendKeys(text);
 	}
 
-//	public void selectText(WebElement element,String text) {
-//		
-//		Select s=new Select(element);
-//		s.selectByVisibleText(text);
-//	}
-
 	public void selectText(WebElement element, String text) {
 		// TODO Auto-generated method stub
-		Select s=new Select(element);
+		Select s = new Select(element);
 		s.selectByVisibleText(text);
 	}
 	
-	
+	public void LoginAdactin() {
+		BaseClass bs=new BaseClass();
+	loginPage=new LoginPage();
+	loginPage.getUsername().sendKeys("Francis3535");
+	bs.enterText(loginPage.getPassword(), "Francis@123");
+	loginPage.getLoginBtn().click();
+	}
 
 }
